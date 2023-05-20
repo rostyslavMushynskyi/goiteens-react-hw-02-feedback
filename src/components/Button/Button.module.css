@@ -1,0 +1,21 @@
+.button {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.button:not(:last-child) {
+  margin-right: 15px;
+}
+
+.button:hover {
+  border-color: #8f8f8f;
+}
+
+.button:active {
+  background-color: #bad2ff;
+}
